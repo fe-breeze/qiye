@@ -461,6 +461,108 @@ footer {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.aboutus-wrap {
+  max-width: 1201px;
+  margin: 0 auto;
+  padding-bottom: 47px;
+  margin-top: 35px;
+}
+
+.aboutus-wrap-tab {
+  display: flex;
+  font-size: 24px;
+  color: #333;
+  border-bottom: 1px solid #d73f57;
+}
+
+.aboutus-wrap-tab li {
+  margin-right: 94px;
+  border-bottom: 10px solid #fff;
+  cursor: pointer;
+}
+
+.aboutus-content {
+  padding-bottom: 90px;
+}
+
+.aboutus-content-wrap {
+  margin-top: 50px;
+}
+
+.aboutus-wrap-tab .aboutus-active {
+  border-bottom: 10px solid #ca0020;
+}
+
+.aboutus-info-1 {
+  font-size: 20px;
+  color: #808080;
+  margin-bottom: 64px;
+}
+
+.aboutus-info-2 {
+  margin-top: 41px;
+  margin-bottom: 18px;
+  font-size: 20px;
+  color: #808080;
+}
+
+.aboutus-img-wrap {
+  display: flex;
+}
+
+.aboutus-content-wrap dl {
+  overflow: hidden;
+}
+
+.aboutus-content-wrap dt {
+  float: left;
+}
+
+.aboutus-content-wrap dl:last-child dt {
+  float: right;
+}
+
+.aboutus-content-wrap dl>dd {
+  line-height: 37px;
+}
+
+.health-img1 {
+  margin-right: 28px;
+}
+
+.health-img2 {
+  margin-left: 33px;
+  margin-bottom: 33px;
+}
+
+.aboutus-content-title {
+  font-size: 20px;
+  color: #333333;
+}
+
+.aboutus-content-head {
+  margin-top: 59px;
+  font-size: 20px;
+  color: #333333;
+}
+
+.aboutus-content1 {
+  font-size: 19px;
+  color: #808080;
+}
+
+.aboutus-content2 {
+  margin-top: 42px;
+  font-size: 19px;
+  color: #808080;
+}
+
+.aboutus-img-wrap img:last-child {
+  height: 282px;
+  width: 100%;
+  margin-left: 13px;
+}
+
 .content-text-item {
   margin-bottom: 23px;
   color: #808080;
