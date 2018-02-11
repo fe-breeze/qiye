@@ -21,7 +21,7 @@ gulp.task('html', function() {
     minifyJS: true, //压缩页面JS
     minifyCSS: true //压缩页面CSS
   };
-  gulp.src(['index.html', 'news.html', 'aboutus.html'])
+  gulp.src('./*.html')
     .pipe(fileinclude({
       prefix: '@@',
       basepath: '@file'
@@ -64,5 +64,6 @@ gulp.task('watch', function() {
   gulp.watch('./css/*.css', ['css']);
   gulp.watch('./img/*', ['img']);
   gulp.watch('./js/*.js', ['js']);
+  gulp.watch('./img/*', ['img']);
 })
 gulp.task('default', ['clean', 'css', 'js', 'html', 'img', 'copyfont']); //定义默认任务 elseTask为其他任务，该示例没有定义elseTask任务

@@ -322,6 +322,12 @@ footer {
   background-color: #bdbdbd;
 }
 
+.contact-wrap {
+  max-width: 1201px;
+  margin: 70px auto 0;
+  padding-bottom: 51px;
+}
+
 .news-img {
   height: 268px;
   background-image: url('../img/news.png');
@@ -332,6 +338,10 @@ footer {
   font-size: 34px;
   position: relative;
   z-index: 1;
+}
+
+.contact-img {
+  background-image: url('../img/contact.png');
 }
 
 .news-img-info {
