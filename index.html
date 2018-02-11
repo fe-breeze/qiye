@@ -1,49 +1,7 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-
-<head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-  <meta content="telephone=no" name="format-detection">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/animate.css">
-  <link rel="stylesheet" href="./css/bootstrap.css">
-  <link rel="stylesheet" href="./css/main.css">
-</head>
+ @@include("html/header.html")
 
 <body>
-  <header>
-    <a href="./index.html" class="logo"><img src="./img/logo.png" alt=""></a>
-    <!-- <div class="mobile-inner-header-icon mobile-inner-header-icon-out"><span></span><span></span></div> -->
-    <a href="#" class="mobile-inner-header-icon mobile-inner-header-icon-out">
-      <img src="./img/info.png" alt="">
-    </a>
-    <div class="mobile-inner-nav" style="display: none;">
-      <a href="./index.html">首页</a>
-      <a href="./news.html">公司新闻</a>
-      <a href="#">关于我们</a>
-      <a href="#">明星产品</a>
-      <a href="#">联系我们</a>
-    </div>
-    <ul class="nav-wrap">
-      <li>
-        <a href="./index.html">首页</a>
-      </li>
-      <li>
-        <a href="./news.html">公司新闻</a>
-      </li>
-      <li>
-        <a href="#">关于我们</a>
-      </li>
-      <li>
-        <a href="#">明星产品</a>
-      </li>
-      <li>
-        <a href="#">联系我们</a>
-      </li>
-    </ul>
-  </header>
+  @@include("html/nav.html")
   <div id="myCarousel" class="carousel slide">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -129,20 +87,7 @@
       <div></div>
     </div>
   </div>
-  <footer>
-    <div class="contact">
-      <dl>
-        <dt>总部（工厂）</dt>
-        <dd>江苏省常熟经济技术开发区兴华港区大道10号<br>TEL: 0512-5229 6828<br>FAX: 0512-5229 6838</dd>
-      </dl>
-      <dl>
-        <dt>营业本部</dt>
-        <dd>上海市虹桥路808号加华商务中心A8-123号<br>TEL: 021-6407 5757<br>FAX: 021-6448 1565</dd>
-      </dl>
-    </div>
-  </footer>
-  <script src="./js/jquery.js"></script>
-  <script src="./js/bootstrap.js"></script>
+  @@include("html/footer.html")
   <script>
     $('#myCarousel').carousel({
       //设置自动播放/3 秒
