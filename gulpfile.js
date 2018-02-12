@@ -61,6 +61,7 @@ gulp.task('clean', function(cb) {
 });
 gulp.task('watch', function() {
   gulp.watch('./*.html', ['html']);
+  gulp.watch('./html/*.html', ['html']);
   gulp.watch('./css/*.css', ['css']);
   gulp.watch('./img/*', ['img']);
   gulp.watch('./js/*.js', ['js']);
