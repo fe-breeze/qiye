@@ -386,6 +386,10 @@ footer {
   background-image: url('../img/contact.png');
 }
 
+.product-img {
+  background-image: url('../img/product_01.png');
+}
+
 .news-img-info {
   display: flex;
   justify-content: center;
